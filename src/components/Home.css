@@ -1,0 +1,105 @@
+.home {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34; /* Dark background */
+  color: #fff;
+  text-align: center;
+  padding-top: 60px; /* To account for fixed header */
+  box-sizing: border-box;
+}
+
+.home .container {
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.home-content .greeting {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #a0a0a0;
+}
+
+.home-content .name {
+  font-size: 3.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.home-content .title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #00bcd4; /* Highlight color */
+}
+
+.home-content .highlight {
+  color: #00bcd4;
+}
+
+.home-content .intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.cta-buttons .primary {
+  background-color: #00bcd4;
+  color: #fff;
+  border: 2px solid #00bcd4;
+}
+
+.cta-buttons .primary:hover {
+  background-color: #0097a7;
+  border-color: #0097a7;
+}
+
+.cta-buttons .secondary {
+  background-color: transparent;
+  color: #00bcd4;
+  border: 2px solid #00bcd4;
+}
+
+.cta-buttons .secondary:hover {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-content .name {
+    font-size: 2.5rem;
+  }
+
+  .home-content .title {
+    font-size: 1.5rem;
+  }
+
+  .cta-buttons .btn {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+  margin-bottom: 20px;
+}

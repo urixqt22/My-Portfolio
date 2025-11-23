@@ -6,7 +6,7 @@
   background-color: #282c34; /* Dark background */
   color: #fff;
   text-align: center;
-  padding-top: 60px; /* To account for fixed header */
+  padding-top: 120px; /* To account for fixed header */
   box-sizing: border-box;
 }
 
@@ -43,6 +43,14 @@
   line-height: 1.6;
   max-width: 600px;
   margin: 0 auto 40px auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+  margin-bottom: 20px;
 }
 
 .cta-buttons .btn {
@@ -88,18 +96,19 @@
     font-size: 1.5rem;
   }
 
+  .home-content .intro {
+    font-size: 1rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
   .cta-buttons .btn {
     display: block;
     margin: 15px auto;
     width: 80%;
     max-width: 250px;
   }
-}
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #00bcd4;
-  margin-bottom: 20px;
 }

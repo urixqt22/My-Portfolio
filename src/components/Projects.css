@@ -117,7 +117,13 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .projects h2 {
+    font-size: 2rem;
+  }
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+  .project-info p {
+    font-size: 0.9rem;
   }
 }

@@ -75,3 +75,15 @@ section:first-of-type {
   padding: 8px 15px;
   font-size: 0.9rem;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0; /* Reduce padding for smaller screens */
+    margin-top: 50px;
+  }
+
+  .container {
+    padding: 0 15px; /* Adjust container padding */
+  }
+}
